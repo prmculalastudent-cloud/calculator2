@@ -47,7 +47,7 @@ function App() {
       result = num1 + num2;
     } else if (operation === "-") {
       result = num1 - num2;
-    } else if (operation === "x") {
+    } else if (operation === "*") {
       result = num1 * num2;
     } else if (operation === "÷") {
       result = num2 === 0 ? "Error" : num1 / num2;
@@ -108,7 +108,7 @@ function App() {
             <CalcButton buttonLabel={5} onClick={numButtonClickHandler} />
             <CalcButton buttonLabel={6} onClick={numButtonClickHandler} />
             <CalcButton 
-              buttonLabel={"x"} 
+              buttonLabel={"*"} 
               onClick={operationButtonClickHandler} 
               className="btn-op" 
             />
