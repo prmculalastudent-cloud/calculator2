@@ -46,7 +46,7 @@ function App() { //Parent Function
             <CalcButton buttonLabel = {2} onClick = {buttonClickHandler}/>
             <CalcButton buttonLabel = {3} onClick = {buttonClickHandler}/>
             <CalcButton buttonLabel = {"-"} onClick = {buttonClickHandler}/>
-            <CalcButton buttonLabel = {"CLR"} onClick = {buttonClickHandler}/>
+            <CalcButton buttonLabel = {"C"} onClick = {buttonClickHandler}/>
             <CalcButton buttonLabel = {0} onClick = {buttonClickHandler}/>
             <CalcButton buttonLabel = {"="} onClick = {buttonClickHandler}/>
             <CalcButton buttonLabel = {"+"} onClick = {buttonClickHandler}/>
